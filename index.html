@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="questionbox">
+        <div class="questionbox-inner">
+            <h1>おやつ deミライ診断</h1>
+    <button onclick="ansStart()" id="ansStartButton">やってみる！</button>
+
+    <div id="ansArea">
+        <!-- 問題文 -->
+        <h2 id="question"></h2>
+        <!-- 選択肢 -->
+        <p id="ans1"></p>
+        <p id="ans2"></p>
+        <p id="ans3"></p>
+        <!-- 解答ボタン -->
+        <button onclick="ansButton(1)" id="ansButton1">回答1</button>
+        <button onclick="ansButton(2)" id="ansButton2">回答2</button>
+        <button onclick="ansButton(3)" id="ansButton3">回答3</button>
+
+        <!-- タイマー -->
+        <p id="countDown"></p>
+    </div>
+
+            <!-- 正答数 -->
+            <div id="answerArea">
+            <p id="answer1"></p>
+            <div id="ans-gazo-area1">
+                <img src="./img/kinniku.png" alt="kinniku-gazo">
+                <p><span>高たんぱくなおやつを3つ選びました。</span>おやつを効果的な栄養補給に活用できてますね！</p>
+            </div>
+            <p id="answer2"></p>
+            <div id="ans-gazo-area2">
+                <img src="./img/hotoke.png" alt="hotoke-gazo">
+                <p><span>高たんぱくなおやつを2つ選びました。</span>おやつは心の栄養補給にも効果的です。</p>
+            </div>
+            <p id="answer3"></p>
+            <div id="ans-gazo-area3">
+                <img src="./img/puni.png" alt="puni-gazo">
+                <p><span>高たんぱくなおやつを1つ選びました。</span>高脂質なおやつを選びがちです。おやつと一緒に運動も心がけてね。</p>
+            </div>
+            <p id="answer4"></p>
+            <div id="ans-gazo-area4">
+                <img src="./img/byoki.png" alt="byoki-gazo">
+                <p><span>低たんぱく高脂質なおやつばかり選んでいます。</span>自分の食べるものに関心を高めましょう。</p>
+            </div>
+            </div>
+
+            <a href="#" id="site-address">結果の詳細はこちらから</a>
+    </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
