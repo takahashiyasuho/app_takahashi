@@ -75,7 +75,7 @@
 #ansButton2,
 #ansButton3{
     border-radius: 30px;
-    background: #fff;
+    background: #fefecd;
     color: hwb(43 9% 44%);
     border: none;
     padding: 5px 15px;
@@ -115,7 +115,7 @@
     object-position: center;
     width: 200px;
     height: 200px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #ans-gazo-area1,
@@ -157,7 +157,7 @@
 }
 
 #site-address::before {
-    background: #e599f4;
+    background: #ff5e45;
     content: "";
     display: block;
     width: 100%;
@@ -173,7 +173,7 @@
   }
 
   #site-address:hover {
-    color: #fff;
+    color: #fefecd;
   }
 
   #site-address:hover::before {
